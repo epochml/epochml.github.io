@@ -18,14 +18,33 @@ In order to determine which classes, courses, and workshops you want to take, we
 Make suggestions
 ```
 
-## Board applications
+## Projects
 
-We are currently looking for **shadows** for each of our board positions.
+You can propose that we adopt one of your projects, or to start a new project.
 
 ```{button-link} https://docs.google.com/forms/d/e/1FAIpQLSfw4djzGneP3urfUKfDWPJURLZuI5sGWrqrwk2ToMd9r9HVWA/viewform?usp=header
 :color: primary
 :outline:
 
-Apply to be a shadow
+Propose projects
 ```
+
+Try out our **Schedule Map Maker**!
+
+```{button-link} https://schedule-map-maker.epochml.org/path
+:color: primary
+:outline:
+
+Schedule Map Maker
+```
+
+## Upcoming events
+
+* Informational meeting
+  * Last week of August, time TBD
+* Java training
+  * First-third week of September, times TBD
+  * Twice a week, 75 min each class
+* Introduction to Machine Learning class
+  * First week of September, time TBD
 
