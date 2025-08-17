@@ -44,7 +44,7 @@ Propose projects
 
 Try out our **Schedule Map Maker**!
 
-```{button-link} https://schedule-map-maker.epochml.org/path
+```{button-link} https://schedule-map-maker.epochml.org/
 :color: primary
 :outline:
 
