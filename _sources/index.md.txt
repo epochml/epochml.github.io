@@ -9,5 +9,5 @@
 links/index
 :::
 
-![The Epoch poster from Involvement Fair 2025](poster.png)
+![The Epoch poster from Involvement Fair 2025](poster.jpg)
 
