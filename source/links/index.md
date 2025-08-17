@@ -9,13 +9,17 @@ Welcome to Epoch!
 Join Epoch
 ```
 
-In order to determine which classes, courses, and workshops you want to take, we need to know what everyone's interested in.
+### Suggestions
+
+If there's something you'd like to see Epoch do, or if you have other suggestions or comments for us, please send them to this form.
+
+If you'd like to run an event, or if you have a detailed proposal for an event that we could run, please also fill out this form.
 
 ```{button-link} https://docs.google.com/forms/d/e/1FAIpQLSf57nbvf1KJa_ngef3NMpTkUGn_q84kVqxn9g02mjPvsklC4Q/viewform?usp=header
 :color: primary
 :outline:
 
-Make suggestions
+Make suggestions or propose events
 ```
 
 ## Projects
@@ -28,6 +32,8 @@ You can propose that we adopt one of your projects, or to start a new project.
 
 Propose projects
 ```
+
+### Try our existing projects
 
 Try out our **Schedule Map Maker**!
 
