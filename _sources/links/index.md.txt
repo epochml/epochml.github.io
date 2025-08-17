@@ -9,6 +9,13 @@ Welcome to Epoch!
 Join Epoch
 ```
 
+```{button-link} ../index
+:color: primary
+:outline:
+
+Learn more about Epoch
+```
+
 ### Suggestions
 
 If there's something you'd like to see Epoch do, or if you have other suggestions or comments for us, please send them to this form.
