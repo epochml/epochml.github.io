@@ -44,6 +44,13 @@ Try out our **Schedule Map Maker**!
 Schedule Map Maker
 ```
 
+```{button-link} https://ismaguesser.vercel.app/
+:color: primary
+:outline:
+
+ISMAguesser
+```
+
 ## Upcoming events
 
 * Informational meeting
