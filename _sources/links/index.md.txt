@@ -2,6 +2,8 @@
 
 Welcome to Epoch!
 
+**<big>Epoch informational meeting 2025-09-03 18:00~19:00 (6-7pm), Math Study Area</big>**
+
 ```{button-link} https://docs.google.com/forms/d/e/1FAIpQLSdx-3ZqcHA0Akecc0y_QqWVt3VPZDwc-OdOcQOfOY4iGI-2EQ/viewform?usp=header
 :color: primary
 :shadow:
