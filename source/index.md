@@ -8,6 +8,7 @@
 
 links/index
 projects/index
+classes-workshops/index
 :::
 
 **<big>Epoch informational meeting Thursday, 2025-09-04 at 18:00~19:00 (6-7pm), Math Study Area</big>**
