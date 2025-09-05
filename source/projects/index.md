@@ -18,7 +18,7 @@ imsa-grades
 You can propose that we adopt one of your projects, or to start a new project.
 
 ```{button-link} https://docs.google.com/forms/d/e/1FAIpQLSfw4djzGneP3urfUKfDWPJURLZuI5sGWrqrwk2ToMd9r9HVWA/viewform?usp=header
-:color: primary
+:color: secondary
 :shadow:
 
 Propose projects
