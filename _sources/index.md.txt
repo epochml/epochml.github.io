@@ -15,3 +15,26 @@ classes-workshops/index
 
 ![The Epoch poster from Involvement Fair 2025](poster.jpg)
 
+## Slides from informational meeting
+
+```{button-link} https://docs.google.com/presentation/d/1RqMEhkxsDzDmtwKoye7Ctqz_rI9TL3LcT3NyecBDHOM/edit
+:color: primary
+:outline:
+
+Slides from informational meeting
+```
+
+## Upcoming events
+
+* Monday, September 8
+  * 18:00 - [Machine learning](classes-workshops/machine-learning), first class
+* Wednesday, September 10
+  * 18:00 - [Offensive cybersecurity](classes-workshops/cybersec), first class
+
+```{button-link} classes-workshops/index
+:color: primary
+:outline:
+
+Other classes and workshops
+```
+

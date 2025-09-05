@@ -6,7 +6,6 @@ Epoch hosts many different kinds of classes and workshops. Lecture notes, slides
 :maxdepth: 2
 :caption: Contents
 :titlesonly: true
-:hidden: true
 
 machine-learning
 intro-java
