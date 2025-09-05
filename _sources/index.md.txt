@@ -68,9 +68,9 @@ Slides from informational meeting
 ## Upcoming events
 
 * Monday, September 8
-  * 18:00 - [Machine learning](classes-workshops/machine-learning), first class
+  * 18:00 - [Machine learning](classes-workshops/machine-learning), first class (Math Study Area)
 * Wednesday, September 10
-  * 18:00 - [Offensive cybersecurity](classes-workshops/cybersec), first class
+  * 18:00 - [Offensive cybersecurity](classes-workshops/cybersec), first class (Math Study Area)
 
 ```{button-link} classes-workshops/index
 :color: primary
@@ -78,7 +78,7 @@ Slides from informational meeting
 
 Other classes and workshops
 ```
-
+We want to assure you that the demonstration was peaceful, respectful, and limited to the midday lunch period. Learning was not disrupted and the safety and continuity of the school day remained our top priority.
 
 
 

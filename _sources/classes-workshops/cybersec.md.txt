@@ -1,6 +1,6 @@
 # Offensive cybersecurity
 
-**<big>Next class: September 10, 18:00~19:00 (6-7pm)</big>**
+**<big>Next class: September 10, 18:00~19:00 (6-7pm) in Math Study Area</big>**
 
 * Basics of Penetration Testing 
   * Linux
