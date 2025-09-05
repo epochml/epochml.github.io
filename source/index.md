@@ -1,5 +1,3 @@
-# Epoch
-
 % Based on https://github.com/executablebooks/sphinx-design/blob/main/docs/index.md?plain=1
 
 ::::::{div} landing-title
@@ -26,8 +24,7 @@
 
 IMSA's only general CS club, with classes, workshops, projects, and a cluster.
 
-```{button-ref} https://docs.google.com/forms/d/e/1FAIpQLSdx-3ZqcHA0Akecc0y_QqWVt3VPZDwc-OdOcQOfOY4iGI-2EQ/viewform?usp=header
-:ref-type: any
+```{button-link} https://docs.google.com/forms/d/e/1FAIpQLSdx-3ZqcHA0Akecc0y_QqWVt3VPZDwc-OdOcQOfOY4iGI-2EQ/viewform?usp=header
 :outline:
 :color: white
 :class: sd-px-4 sd-fs-5
@@ -40,17 +37,17 @@ Join Epoch
 
 ::::::
 
-::::{grid} 1 2
+::::{grid} 1 2 2 2
 
 :::{grid-item-card} {octicon}`mortar-board` Classes and workshops
-:link: classes-workshops
+:link: classes-workshops/index
 :link-type: doc
 
 Classes and workshops that we teach.
 :::
 
 :::{grid-item-card} {octicon}`repo` Projects
-:link: projects
+:link: projects/index
 :link-type: doc
 
 Projects that we work on.
