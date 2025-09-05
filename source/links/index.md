@@ -11,11 +11,18 @@ Welcome to Epoch!
 Join Epoch
 ```
 
+```{button-link} https://docs.google.com/presentation/d/1RqMEhkxsDzDmtwKoye7Ctqz_rI9TL3LcT3NyecBDHOM/edit
+:color: primary
+:outline:
+
+Slides from informational meeting
+```
+
 ```{button-link} ../index
 :color: primary
 :outline:
 
-Learn more about Epoch
+Homepage
 ```
 
 ### Suggestions
