@@ -27,7 +27,7 @@
 IMSA's only general CS club, with classes, workshops, projects, and a cluster.
 
 ```{button-ref} https://docs.google.com/forms/d/e/1FAIpQLSdx-3ZqcHA0Akecc0y_QqWVt3VPZDwc-OdOcQOfOY4iGI-2EQ/viewform?usp=header
-:ref-type: doc
+:ref-type: any
 :outline:
 :color: white
 :class: sd-px-4 sd-fs-5
