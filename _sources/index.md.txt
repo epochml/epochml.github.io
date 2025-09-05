@@ -41,8 +41,6 @@ Join Epoch
 ::::::
 
 ::::{grid} 1 2
-:margin: 4 4 0 0
-:gutter: 1
 
 :::{grid-item-card} {octicon}`mortar-board` Classes and workshops
 :link: classes-workshops
