@@ -9,6 +9,13 @@ A game where you have to figure out where in the building the picture was taken 
 Play ISMAguesser
 ```
 
+```{button-link} https://github.com/epochml/ISMAguesser
+:color: secondary
+:shadow:
+
+GitHub repository
+```
+
 ## Progress
 
 * 178 mapped images
