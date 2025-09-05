@@ -9,6 +9,13 @@ Makes a map of your schedule, and allows you to find routes between different ro
 Open Schedule Map Maker
 ```
 
+```{button-link} https://github.com/epochml/schedule-map-maker
+:color: secondary
+:shadow:
+
+GitHub repository
+```
+
 ## Progress
 
 * Live at https://schedule-map-maker.epochml.org/ 

@@ -2,6 +2,13 @@
 
 See how long the line is at Lexington, using beambreakers and microcontrollers (ESP32s).
 
+```{button-link} https://github.com/epochml/LexingtonTraffic
+:color: secondary
+:shadow:
+
+GitHub repository
+```
+
 ![](lexington-traffic-architecture.png)
 
 ## Progress
