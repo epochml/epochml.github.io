@@ -65,22 +65,21 @@ Click on one of the links above to learn more!
 Slides from informational meeting
 ```
 
-## Upcoming events
+## Get involved
 
-* Monday, September 8
-  * 18:00 - [Machine learning](classes-workshops/machine-learning), first class (Math Study Area)
-* Wednesday, September 10
-  * 18:00 - [Offensive cybersecurity](classes-workshops/cybersec), first class (Math Study Area)
-
-```{button-link} classes-workshops/index
+```{button-link} https://docs.google.com/forms/d/e/1FAIpQLSdx-3ZqcHA0Akecc0y_QqWVt3VPZDwc-OdOcQOfOY4iGI-2EQ/viewform?usp=header
 :color: primary
-:outline:
+:shadow:
 
-Other classes and workshops
+Join Epoch
 ```
-We want to assure you that the demonstration was peaceful, respectful, and limited to the midday lunch period. Learning was not disrupted and the safety and continuity of the school day remained our top priority.
 
+```{button-link} https://discord.gg/AN58YQ7ngz
+:color: secondary
+:shadow:
 
+Discord server
+```
 
 :::{toctree}
 :maxdepth: 2
