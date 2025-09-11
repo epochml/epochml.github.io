@@ -1,7 +1,5 @@
 # Ethical cybersecurity
 
-**<big>Next class: September 10, 18:00~19:00 (6-7pm) in Math Study Area</big>**
-
 * Basics of Penetration Testing 
   * Linux
   * Using tools
@@ -13,9 +11,20 @@
   * 2-3 weeks, depending on interest
   * Can focus on specific topics based on interest
 
-## Classes
+## Past classes
 
 ### Class 1: Basic website cybersecurity
 
-We will have an example vulnerable website, and demonstrate how the vulnerabilities can be exploited. We will then patch the website to prevent the vulnerability from recurring.
+[Slides](https://docs.google.com/presentation/d/1bzDF7Kc1Dwe8fkBYQ3P2E8S4LYtQPo1XIy66Z_y3gMo/edit?slide=id.g36a207f0c2e_0_95#slide=id.g36a207f0c2e_0_95)
+
+September 10, 18:00~18:45 in Math Study Area (lecture)  
+19:15~19:45 in Science Study Area (attacking the example vulnerable website)
+
+We explained the importance of cybersecurity work, and explained several common vulnerabilities on websites:
+* SQL injection
+* IDOR (Insecure Direct Object Reference)
+* Cookie manipulation
+* Cross-site scripting
+
+We also hosted a vulnerable website that was designed to demonstrate these different attacks.
 
