@@ -1,6 +1,4 @@
-# Linux
-
-The **GNU/Linux** operating system (also called **Linux**) is an open source operating system, that can be easily customized to your needs.
+# Getting started
 
 :::{toctree}
 :maxdepth: 2
