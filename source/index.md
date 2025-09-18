@@ -97,4 +97,5 @@ Discord server
 links/index
 projects/index
 classes-workshops/index
+users/index
 :::
