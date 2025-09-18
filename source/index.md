@@ -37,7 +37,7 @@ Join Epoch
 
 ::::::
 
-::::{grid} 1 2 2 2
+::::{grid} 1 3 3 3
 
 :::{grid-item-card} {octicon}`mortar-board` Classes and workshops
 :link: classes-workshops/index
@@ -51,6 +51,13 @@ Classes and workshops that we teach.
 :link-type: doc
 
 Projects that we work on.
+:::
+
+:::{grid-item-card} {octicon}`info` User group
+:link: users/index
+:link-type: doc
+
+Discussion and help with GNU/Linux and other open source software.
 :::
 ::::
 
