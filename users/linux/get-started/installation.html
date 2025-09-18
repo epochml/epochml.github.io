@@ -1,0 +1,502 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../../../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../../../genindex.html" /><link rel="search" title="Search" href="../../../search.html" />
+
+    <!-- Generated with Sphinx 8.2.3 and Furo 2024.08.06 -->
+        <title>Installation - Epoch</title>
+      <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo.css?v=354aac6f" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo-extensions.css?v=302659d7" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../../index.html"><div class="brand">Epoch</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../../index.html">
+  
+  <div class="sidebar-logo-container">
+    <img class="sidebar-logo" src="../../../_static/epochLogoNoBackground.svg" alt="Logo"/>
+  </div>
+  
+  <span class="sidebar-brand-text">Epoch</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../links/index.html">Onboarding</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../projects/index.html">Projects</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Projects</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../projects/ismaguesser.html">ISMAguesser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../projects/schedule-map-maker.html">Schedule Map Maker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../projects/lexington-traffic.html">Lexington Traffic Project</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../projects/imsa-grades.html">IMSA Grades</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../classes-workshops/index.html">Classes and workshops</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Classes and workshops</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../classes-workshops/machine-learning.html">Machine learning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../classes-workshops/intro-java.html">Introduction to Java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../classes-workshops/cybersec.html">Ethical cybersecurity</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="view-this-page">
+  <a class="muted-link" href="../../../_sources/users/linux/get-started/installation.md.txt" title="View this page">
+    <svg><use href="#svg-eye"></use></svg>
+    <span class="visually-hidden">View this page</span>
+  </a>
+</div>
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <section class="tex2jax_ignore mathjax_ignore" id="installation">
+<h1>Installation<a class="headerlink" href="#installation" title="Link to this heading">¶</a></h1>
+<section id="have-compatible-hardware">
+<h2>Have compatible hardware<a class="headerlink" href="#have-compatible-hardware" title="Link to this heading">¶</a></h2>
+<p>Most laptops can run Linux, however, hardware such as the camera, keyboard, touchpad, etc can occasionally have problems, especially for rare laptops or very new laptops.</p>
+<p>If you have an Intel or AMD CPU (this is called having an <strong>x86_64 CPU</strong>, also called an <strong>amd64 CPU</strong> (even if it was made by Intel)) and your laptop was released within the past two decades but not within the last year, it is extremely likely that it will work.</p>
+<p>If you have an ARM CPU or are using a Mac, it will take a lot of work. We may be able to assist you; however it is possible we may not be able to install Linux.</p>
+</section>
+<section id="select-a-distribution">
+<h2>Select a distribution<a class="headerlink" href="#select-a-distribution" title="Link to this heading">¶</a></h2>
+<p>A <strong>Linux distribution</strong> provides a way to install Linux, install applications, and update your system. It also configures the software to be easy to use and work well together.</p>
+<p>We currently recommend <strong>openSUSE Slowroll</strong> to new users, as we believe it is able to deliver a stable experience while providing the flexibility to install new software without fear of conflicts. However, there are many different distributions that you can install; please ask us for details.</p>
+<p>Unlike on Windows or macOS, the boundary between applications and the OS is blurred. Some applications may need new libraries, which they may provide themselves or expect the OS to provide. Additionally, users often want new features from their desktop environments, which cannot be updated separately from the OS without causing serious issues. This is why we recommended a distribution with frequent updates.</p>
+<p>We are able to support:</p>
+<ul class="simple">
+<li><p>Debian and Ubuntu-based distributions – these are widely used and very stable, however the software provided is often out of date.</p>
+<ul>
+<li><p>Debian releases the distribution every two years; Ubuntu releases every six months.</p></li>
+<li><p>We do not recommend using Debian Testing or Unstable – although these are rolling releases, they break often and are intended for development of Debian only.</p></li>
+<li><p>Linux Mint is a beginner-friendly distribution.</p></li>
+<li><p>If your laptop was released in 2025, Debian likely does not support it; you may be unable to get it to boot or to be able to use any graphical applications since your graphics card may be too new to be supported.</p></li>
+</ul>
+</li>
+<li><p>Arch Linux</p>
+<ul>
+<li><p>We do not recommend this for newcomers</p></li>
+<li><p>If you want to heavily customize your installation and/or want to learn deeply how Linux works, you can use Arch</p></li>
+<li><p>Cinna has a lot of experience and can help you; the Arch community is also very helpful</p></li>
+</ul>
+</li>
+<li><p>openSUSE</p>
+<ul>
+<li><p>There are three release channels</p>
+<ul>
+<li><p>Tumbleweed releases every day, but unlike Arch has automated tests to prevent your system from breaking.</p></li>
+<li><p>Slowroll releases every month, after a week of testing the version in Tumbleweed. Throughout the month they release small bugfixes and security fixes. This is a good mix of stability and new software.</p></li>
+<li><p>Leap releases every few years; we really do not recommend this.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Finally, there are a few systems that you may consider but we have less experience in:</p>
+<ul class="simple">
+<li><p>Fedora</p>
+<ul>
+<li><p>It releases every 6 months, but unlike Ubuntu will perform feature updates that aren’t major within each release</p></li>
+<li><p>This is Mr. Campbell’s (our mentor) preferred distribution, but we do not have any other tech-savvy people who have experience with Fedora</p></li>
+</ul>
+</li>
+</ul>
+<p>Most of this guide appies to all distributions; however, we focus on <strong>openSUSE Slowroll</strong>.</p>
+</section>
+<section id="select-a-desktop">
+<h2>Select a desktop<a class="headerlink" href="#select-a-desktop" title="Link to this heading">¶</a></h2>
+<p>Epoch recommends <strong>KDE</strong>, since it is widely used and Epoch upperclassmen have a wide experience with it. KDE provides a high-quality and easy-to-use experience.</p>
+</section>
+<section id="flash-the-installation-iso">
+<span id="flash-iso"></span><h2>Flash the installation ISO<a class="headerlink" href="#flash-the-installation-iso" title="Link to this heading">¶</a></h2>
+<p>Please find a USB stick that you are fine with overwriting (and therefore losing all the data on it). It should have a decent amount of space; 12 GB is more than enough.</p>
+<p>On a computer (this can be your current one), install a USB image flasher:</p>
+<ul class="simple">
+<li><p>Windows: <a class="reference external" href="https://rufus.ie/en/">Rufus</a></p></li>
+<li><p>macOS: <a class="reference external" href="https://bztsrc.gitlab.io/usbimager/">USBImager</a></p></li>
+<li><p>Linux: <a class="reference external" href="https://bztsrc.gitlab.io/usbimager/">USBImager</a> or <a class="reference external" href="https://apps.gnome.org/Impression/">Impression</a> (Impression has a more GNOME-like interface)</p></li>
+</ul>
+<p>Download the ISO image for your chosen distribution. For openSUSE Slowroll use this link:</p>
+<p><a class="reference external" href="https://download.opensuse.org/slowroll/iso/openSUSE-Slowroll-DVD-x86_64-Build37.3-Media.iso">https://download.opensuse.org/slowroll/iso/openSUSE-Slowroll-DVD-x86_64-Build37.3-Media.iso</a></p>
+<p>For other distributions, visit the distribution’s website and find their download links. Ask another Epoch member for help, if you don’t know which ISO to choose.</p>
+<p>Plug the USB stick into your computer. Now you can flash the installation ISO using the image flasher app you downloaded – open the app, select the ISO you downloaded, select which USB stick you want to flash it to, and click the button to start flashing.</p>
+</section>
+<section id="disable-bitlocker">
+<h2>Disable BitLocker<a class="headerlink" href="#disable-bitlocker" title="Link to this heading">¶</a></h2>
+<p><strong>BitLocker</strong> protects your files on Windows from being viewed without your password. However, it will lock your files if it detects a change on your computer, such as installing Linux. In some cases, it might be difficult to recover from this.</p>
+<p>Please see the following support article:<br />
+<a class="reference external" href="https://www.asus.com/us/support/faq/1047461/">https://www.asus.com/us/support/faq/1047461/</a></p>
+</section>
+<section id="shrink-your-windows-partition">
+<h2>Shrink your Windows partition<a class="headerlink" href="#shrink-your-windows-partition" title="Link to this heading">¶</a></h2>
+<p><strong>If you can, please ask an Epoch member for help on this step.</strong></p>
+<p>In Windows, open the Start menu and search for “Disk Management”. You should find this app available:</p>
+<p><img alt="alt text" src="../../../_images/image.png" /></p>
+<p>Right-click your <code class="docutils literal notranslate"><span class="pre">C:</span></code> drive and click “Shrink Volume”:</p>
+<p><img alt="alt text" src="../../../_images/image-1.png" /></p>
+<p>This should pop up a “Shrink” window:</p>
+<p><img alt="alt text" src="../../../_images/image-2.png" /></p>
+<p>Enter the amount of space you need to shrink it, and then shrink.</p>
+<p>Linux typically requires around 20 GB to install a basic system, a desktop, and programs that you may commonly need. However, we recommend <strong>100 GB</strong> dedicated to Linux.</p>
+</section>
+<section id="final-preparation">
+<h2>Final preparation<a class="headerlink" href="#final-preparation" title="Link to this heading">¶</a></h2>
+<p>Reboot into Windows, to make sure that everything still works.</p>
+</section>
+<section id="change-bios-settings">
+<h2>Change BIOS settings<a class="headerlink" href="#change-bios-settings" title="Link to this heading">¶</a></h2>
+<p>Reboot your computer, with your USB stick still plugged in. As soon as it starts booting, try pressing a key like <kbd>F2</kbd>, <kbd>F10</kbd>, <kbd>F12</kbd>, or <kbd>Esc</kbd>. If it doesn’t work, reboot and try another one of the above keys. If you still can’t get it to work, look up how to access the BIOS settings on your computer’s model.</p>
+<p>You should eventually end up in a configuration page, known as the “BIOS settings”.</p>
+<section id="disable-secure-boot">
+<h3>Disable Secure Boot<a class="headerlink" href="#disable-secure-boot" title="Link to this heading">¶</a></h3>
+<p><strong>Secure Boot</strong> prevents operating systems or drivers that are not trusted by Microsoft from being run on your computer. When installing Linux, it is usually necessary to disable Secure Boot. If your distribution supports Secure Boot you can enable Secure Boot again after installation, to make it harder for malware to modify your operating system.</p>
+<p>You should be able to find the appropriate option.</p>
+<p>If you need more help, view the support article:<br />
+<a class="reference external" href="https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/disabling-secure-boot?view=windows-11">https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/disabling-secure-boot?view=windows-11</a></p>
+</section>
+<section id="set-boot-order">
+<h3>Set boot order<a class="headerlink" href="#set-boot-order" title="Link to this heading">¶</a></h3>
+<p>There is usually a way to set the boot order. Put your USB stick at the top of the list.</p>
+</section>
+<section id="save-changes">
+<h3>Save changes<a class="headerlink" href="#save-changes" title="Link to this heading">¶</a></h3>
+<p>There will be a key that you can press to save changes. Press that key and confirm your changes.</p>
+</section>
+</section>
+<section id="boot-into-the-installer">
+<h2>Boot into the installer<a class="headerlink" href="#boot-into-the-installer" title="Link to this heading">¶</a></h2>
+<p>Reboot into the installer, and follow the instructions. Ask an upperclassman for help.</p>
+<p>A few things you should configure:</p>
+<ul class="simple">
+<li><p>Do not set a password for the root user. Otherwise, it will be difficult to use <code class="docutils literal notranslate"><span class="pre">sudo</span></code>.</p></li>
+<li><p>Use LVM (Logical Volume Manager). This will make it easier to add more space if you run out of disk space.</p></li>
+<li><p>Use the filesystem which is default on the installer. On openSUSE, this is <code class="docutils literal notranslate"><span class="pre">btrfs</span></code>, which will allow you to easily roll back if you run and update and it causes issues. Most other systems use <code class="docutils literal notranslate"><span class="pre">ext4</span></code>.</p></li>
+</ul>
+</section>
+<section id="reboot-into-linux">
+<h2>Reboot into Linux<a class="headerlink" href="#reboot-into-linux" title="Link to this heading">¶</a></h2>
+<p>At the end of the installation, it will ask you to reboot. Click the button to reboot.</p>
+<p>It should reboot into Linux. If it boots into your USB stick, shut down, unplug the USB stick, and try again. If it boots into Windows, go back to the BIOS settings and put Linux at the top of the boot order.</p>
+</section>
+<section id="codecs-opensuse">
+<h2>Codecs (openSUSE)<a class="headerlink" href="#codecs-opensuse" title="Link to this heading">¶</a></h2>
+<p>Due to patent issues, openSUSE does not ship codecs (which allow you to decode and encode videos and audio files like <code class="docutils literal notranslate"><span class="pre">.mp4</span></code>, <code class="docutils literal notranslate"><span class="pre">.webm</span></code>, etc). You can set up codecs from an external repository called “Packman”, by running the following commands in the terminal:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Change this to Tumbleweed if you&#39;re on Tumbleweed</span>
+sudo<span class="w"> </span>zypper<span class="w"> </span>addrepo<span class="w"> </span>-cfp<span class="w"> </span><span class="m">90</span><span class="w"> </span><span class="s1">&#39;https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Slowroll/&#39;</span><span class="w"> </span>packman
+sudo<span class="w"> </span>zypper<span class="w"> </span>refresh
+sudo<span class="w"> </span>zypper<span class="w"> </span>install<span class="w"> </span>--allow-vendor-change<span class="w"> </span>--from<span class="w"> </span>packman<span class="w"> </span>ffmpeg<span class="w"> </span>gstreamer-plugins-<span class="o">{</span>good,bad,ugly,libav<span class="o">}</span><span class="w"> </span>libavcodec<span class="w"> </span>vlc-codecs
+</pre></div>
+</div>
+<blockquote>
+<div><p><strong>Note:</strong> You can access the terminal via the “Konsole” app on KDE.</p>
+</div></blockquote>
+</section>
+<section id="reconfiguring-grub-boot-order">
+<h2>Reconfiguring GRUB boot order<a class="headerlink" href="#reconfiguring-grub-boot-order" title="Link to this heading">¶</a></h2>
+<p>It might be the case that you don’t need to use Linux most of the time. In that case, it may be annoying to have to use the arrow keys to select Windows every time you boot up.</p>
+<section id="using-yast-opensuse">
+<h3>Using YaST (openSUSE)<a class="headerlink" href="#using-yast-opensuse" title="Link to this heading">¶</a></h3>
+<p>In your app launcher, search for “YaST”. Enter your password when prompted, then click on “Boot Loader”:</p>
+<p><img alt="alt text" src="../../../_images/image-3.png" /></p>
+<p>Then, go to “Bootloader Options” where you can configure the default OS and the timeout for selecting a different OS:</p>
+<p><img alt="alt text" src="../../../_images/image-4.png" /></p>
+<p>Press “OK” to save your changes and exit.</p>
+</section>
+<section id="doing-it-manually">
+<h3>Doing it manually<a class="headerlink" href="#doing-it-manually" title="Link to this heading">¶</a></h3>
+<p>You need to edit the file <code class="docutils literal notranslate"><span class="pre">/etc/default/grub</span></code> and then run the command <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">update-grub</span></code>.</p>
+<p>See the following article for more details:<br />
+<a class="reference external" href="https://www.howtogeek.com/196655/how-to-configure-the-grub2-boot-loaders-settings/">https://www.howtogeek.com/196655/how-to-configure-the-grub2-boot-loaders-settings/</a></p>
+</section>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2025, Epoch
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Installation</a><ul>
+<li><a class="reference internal" href="#have-compatible-hardware">Have compatible hardware</a></li>
+<li><a class="reference internal" href="#select-a-distribution">Select a distribution</a></li>
+<li><a class="reference internal" href="#select-a-desktop">Select a desktop</a></li>
+<li><a class="reference internal" href="#flash-the-installation-iso">Flash the installation ISO</a></li>
+<li><a class="reference internal" href="#disable-bitlocker">Disable BitLocker</a></li>
+<li><a class="reference internal" href="#shrink-your-windows-partition">Shrink your Windows partition</a></li>
+<li><a class="reference internal" href="#final-preparation">Final preparation</a></li>
+<li><a class="reference internal" href="#change-bios-settings">Change BIOS settings</a><ul>
+<li><a class="reference internal" href="#disable-secure-boot">Disable Secure Boot</a></li>
+<li><a class="reference internal" href="#set-boot-order">Set boot order</a></li>
+<li><a class="reference internal" href="#save-changes">Save changes</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#boot-into-the-installer">Boot into the installer</a></li>
+<li><a class="reference internal" href="#reboot-into-linux">Reboot into Linux</a></li>
+<li><a class="reference internal" href="#codecs-opensuse">Codecs (openSUSE)</a></li>
+<li><a class="reference internal" href="#reconfiguring-grub-boot-order">Reconfiguring GRUB boot order</a><ul>
+<li><a class="reference internal" href="#using-yast-opensuse">Using YaST (openSUSE)</a></li>
+<li><a class="reference internal" href="#doing-it-manually">Doing it manually</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="../../../_static/documentation_options.js?v=f2a433a1"></script>
+    <script src="../../../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../_static/scripts/furo.js?v=5fa4622c"></script>
+    <script src="../../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../../_static/design-tabs.js?v=f930bc37"></script>
+    </body>
+</html>
