@@ -126,6 +126,8 @@ A few things you should configure:
 * Use LVM (Logical Volume Manager). This will make it easier to add more space if you run out of disk space.
 * Use the filesystem which is default on the installer. On openSUSE, this is `btrfs`, which will allow you to easily roll back if you run and update and it causes issues. Most other systems use `ext4`.
 
+**Warning:** When installing openSUSE, you **MUST** use the **Guided Partitioner**; do not accept the default partitioning scheme.
+
 ## Reboot into Linux
 
 At the end of the installation, it will ask you to reboot. Click the button to reboot.
