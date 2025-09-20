@@ -8,7 +8,6 @@ Timing to be determined.
   * Interactive
   * ALL skill levels
 * Lessons
-  * Twice a week, 1.5 to 2 hours per week
+  * Twice a week, 1 hour per class
   * 2-3 weeks
-  * Combined with FRC programming members
 
