@@ -15,7 +15,7 @@
 
 ### Class 1: Basic website cybersecurity
 
-[Slides](https://docs.google.com/presentation/d/1bzDF7Kc1Dwe8fkBYQ3P2E8S4LYtQPo1XIy66Z_y3gMo/edit?slide=id.g36a207f0c2e_0_95#slide=id.g36a207f0c2e_0_95)
+[Slides](https://docs.google.com/presentation/d/1bzDF7Kc1Dwe8fkBYQ3P2E8S4LYtQPo1XIy66Z_y3gMo/edit?slide=id.g36a207f0c2e_0_95#slide=id.g36a207f0c2e_0_95) | [Recording](https://drive.google.com/file/d/148W9zGarwrEpt53Ht7fA7ZMzo2XKGDB5/view)
 
 September 10, 18:00~18:45 in Math Study Area (lecture)  
 19:15~19:45 in Science Study Area (attacking the example vulnerable website)
