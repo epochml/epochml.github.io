@@ -2,11 +2,18 @@
 
 View historical IMSA grade data, and get an idea of how hard a class is.
 
-```{button-link} https://github.com/epochml/imsa-grades
+```{button-link} https://epochml.org/imsa-grades/
 :color: primary
 :shadow:
 
-View IMSA Grades repository
+Open IMSA Grades
+```
+
+```{button-link} https://github.com/epochml/imsa-grades
+:color: secondary
+:shadow:
+
+GitHub repository
 ```
 
 ## Progress
