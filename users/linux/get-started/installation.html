@@ -397,8 +397,8 @@
 <section id="codecs-opensuse">
 <h2>Codecs (openSUSE)<a class="headerlink" href="#codecs-opensuse" title="Link to this heading">¶</a></h2>
 <p>Due to patent issues, openSUSE does not ship codecs (which allow you to decode and encode videos and audio files like <code class="docutils literal notranslate"><span class="pre">.mp4</span></code>, <code class="docutils literal notranslate"><span class="pre">.webm</span></code>, etc). You can set up codecs from an external repository called “Packman”, by running the following commands in the terminal:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Change this to Tumbleweed if you&#39;re on Tumbleweed</span>
-sudo<span class="w"> </span>zypper<span class="w"> </span>addrepo<span class="w"> </span>-cfp<span class="w"> </span><span class="m">90</span><span class="w"> </span><span class="s1">&#39;https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Slowroll/&#39;</span><span class="w"> </span>packman
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Change this to Tumbleweed if you're on Tumbleweed</span>
+sudo<span class="w"> </span>zypper<span class="w"> </span>addrepo<span class="w"> </span>-cfp<span class="w"> </span><span class="m">90</span><span class="w"> </span><span class="s1">'https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Slowroll/'</span><span class="w"> </span>packman
 sudo<span class="w"> </span>zypper<span class="w"> </span>refresh
 sudo<span class="w"> </span>zypper<span class="w"> </span>install<span class="w"> </span>--allow-vendor-change<span class="w"> </span>--from<span class="w"> </span>packman<span class="w"> </span>ffmpeg<span class="w"> </span>gstreamer-plugins-<span class="o">{</span>good,bad,ugly,libav<span class="o">}</span><span class="w"> </span>libavcodec<span class="w"> </span>vlc-codecs
 </pre></div>
