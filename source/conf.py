@@ -6,7 +6,7 @@
 
 # -- Path setup --------------------------------------------------------------
 
-# If extensions (or modules to document with autodoc are in another directory,
+# If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 
@@ -28,7 +28,7 @@ html_title = 'Epoch'
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
-# extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
+# extensions coming with autodoc (autodoc?) or your custom
 # ones.
 extensions = [
     'myst_parser', # Markdown support
