@@ -1,43 +1,8 @@
 % Based on https://github.com/executablebooks/sphinx-design/blob/main/docs/index.md?plain=1
 
-::::::{div} landing-title
-:style: "padding: 0.1rem 0.5rem 0.6rem 0; background-image: linear-gradient(315deg, #438ff9 0%, #1572f4 74%); clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 0% calc(100% - 1.5rem)); -webkit-clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 0% calc(100% - 1.5rem));"
+Epoch is an IN2 program focused on hands-on computing education and software projects for the IMSA community. We run classes/workshops and project teams throughout the school year.
 
-::::{grid}
-:reverse:
-:gutter: 2 3 3 3
-:margin: 4 4 1 2
-
-<!-- :::{grid-item}
-:columns: 12 4 4 4
-
-```{image} ./_static/logo_square.svg
-:width: 200px
-:class: sd-m-auto sd-animate-grow50-rot20
-```
-::: -->
-
-:::{grid-item}
-:columns: 12 8 8 8
-:child-align: justify
-:class: sd-text-white sd-fs-3
-
-IMSA's only general CS club, with classes, workshops, projects, and a cluster.
-
-```{button-link} https://docs.google.com/forms/d/e/1FAIpQLSdx-3ZqcHA0Akecc0y_QqWVt3VPZDwc-OdOcQOfOY4iGI-2EQ/viewform?usp=header
-:outline:
-:color: white
-:class: sd-px-4 sd-fs-5
-
-Join Epoch
-```
-
-:::
-::::
-
-::::::
-
-::::{grid} 1 3 3 3
+::::{grid} 1 2 2 2
 
 :::{grid-item-card} {octicon}`mortar-board` Classes and workshops
 :link: classes-workshops/index
@@ -52,37 +17,15 @@ Classes and workshops that we teach.
 
 Projects that we work on.
 :::
-
-:::{grid-item-card} {octicon}`info` User group
-:link: users/index
-:link-type: doc
-
-Discussion and help with GNU/Linux and other open source software.
-:::
 ::::
-
-Click on one of the links above to learn more!
-
-## Slides from informational meeting
-
-```{button-link} https://docs.google.com/presentation/d/1RqMEhkxsDzDmtwKoye7Ctqz_rI9TL3LcT3NyecBDHOM/edit
-:color: primary
-:outline:
-
-Slides from informational meeting
-```
-
-## Upcoming events
-
-TBD
 
 ## Get involved
 
-```{button-link} https://docs.google.com/forms/d/e/1FAIpQLSdx-3ZqcHA0Akecc0y_QqWVt3VPZDwc-OdOcQOfOY4iGI-2EQ/viewform?usp=header
+```{button-link} https://forms.gle/GQrkXcsCzfVDd3U89
 :color: primary
 :shadow:
 
-Join Epoch
+2026-27 interest form
 ```
 
 ```{button-link} https://discord.gg/AN58YQ7ngz
