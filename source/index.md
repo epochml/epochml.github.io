@@ -41,7 +41,6 @@ Discord server
 :titlesonly: true
 :hidden: true
 
-links/index
 projects/index
 classes-workshops/index
 users/index
