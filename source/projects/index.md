@@ -1,26 +1,29 @@
 # Projects
 
-Epoch has many projects. Please ask in the project's channel on Discord if you want to join these projects.
+Epoch's project teams build and maintain tools for the IMSA community.
+
+Schedule Map Maker is our most concrete current project. Lexington Traffic and ISMAguesser depend on lead availability and member interest. We also support new member-proposed projects.
+
+IMSA Grades is an existing Epoch tool, but is not currently planned as a standalone project team for 2026-27.
 
 :::{toctree}
 :maxdepth: 2
 :caption: Contents
 :titlesonly: true
 
-ismaguesser
 schedule-map-maker
 lexington-traffic
+ismaguesser
 imsa-grades
 :::
 
-## Project proposals
+## Project ideas
 
-You can propose that we adopt one of your projects, or to start a new project.
+Have an idea for a new project? Put it in the general interest form.
 
-```{button-link} https://docs.google.com/forms/d/e/1FAIpQLSfw4djzGneP3urfUKfDWPJURLZuI5sGWrqrwk2ToMd9r9HVWA/viewform?usp=header
+```{button-link} https://forms.gle/GQrkXcsCzfVDd3U89
 :color: secondary
 :shadow:
 
-Propose projects
+Epoch interest form
 ```
-
