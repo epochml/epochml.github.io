@@ -1,5 +1,7 @@
 # Ethical cybersecurity
 
+This page contains materials from Epoch's 2025-26 cybersecurity workshop. For 2026-27, cybersecurity offerings would be coordinated with IN2 CySec.
+
 * Basics of Penetration Testing 
   * Linux
   * Using tools
@@ -27,4 +29,3 @@ We explained the importance of cybersecurity work, and explained several common 
 * Cross-site scripting
 
 We also hosted a vulnerable website that was designed to demonstrate these different attacks.
-
