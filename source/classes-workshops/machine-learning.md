@@ -1,5 +1,7 @@
 # Machine learning
 
+This page contains materials from an Epoch machine learning workshop held during the 2025-26 school year.
+
 * Basics of machine learning
   * We will be using the PyTorch library with online notebooks
   * Neural networks
