@@ -17,7 +17,7 @@ sys.path.insert(0, os.path.abspath("./_ext"))
 # -- Project information -----------------------------------------------------
 
 project = 'Epoch'
-copyright = '2025, Epoch'
+copyright = '2026, Epoch'
 author = 'Epoch'
 
 # The full version, including alpha/beta/rc tags

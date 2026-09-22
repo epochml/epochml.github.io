@@ -1,5 +1,7 @@
 # Introduction to Java
 
+This page contains materials from Epoch's 2025-26 Introduction to Java course.
+
 * Basics of Java and Coding
   * Key concepts
   * Exercises
@@ -18,7 +20,7 @@ We didn't get much done in the first class except for installation + setup.
 * [Java basics](intro-java/1-java-basics.md)
 * [Control flow](intro-java/2-control-flow.md)
 
-## Class schedule
+## 2025-26 class schedule
 
 * Sep 24, 16:30~17:30 (4:30-5:30pm) - Java syntax (and environment setup)
 * [Sep 25, 18:00~19:00 (6-7pm) - Control flow](intro-java/2-control-flow.md)
