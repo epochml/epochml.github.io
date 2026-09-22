@@ -21,4 +21,3 @@ GitHub repository
 * Finish the beambreaker and ESP32 code
 * Finish the frontend
 * Improve the database
-* Migrate hosting to the cluster
